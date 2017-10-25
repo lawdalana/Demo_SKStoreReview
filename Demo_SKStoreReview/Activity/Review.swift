@@ -37,6 +37,7 @@ class Review {
     
     public func show() {
         print("[Log] Show Review")
+        print("Hello World")
         
         if calculateFromModular() {
             if #available(iOS 10.3, *) {
